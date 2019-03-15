@@ -4,7 +4,8 @@ var bodyParser = require('body-parser');
 var jsonParser = bodyParser.json();
 
 app.get('/', jsonParser, function (req, res) {
-    res.send('Hello World!');
+    console.log(req.body);
+    res.sendStatus(200);
 });
 
 app.listen(3000, function () {
