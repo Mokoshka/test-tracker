@@ -1,0 +1,23 @@
+{
+  "name": "test-tracker",
+  "version": "1.0.0",
+  "description": "Тестирую тригеры в Трекере",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mokoshka/test-tracker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mokoshka/test-tracker/issues"
+  },
+  "homepage": "https://github.com/Mokoshka/test-tracker#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  }
+}
